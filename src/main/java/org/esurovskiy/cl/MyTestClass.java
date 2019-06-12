@@ -1,7 +1,7 @@
 package org.esurovskiy.cl;
 
 
-public class MyTestClass {
+public class MyTestClass extends Object{
     public String strField = " string";
     protected int b = 1;
     private int a = 10;
@@ -22,7 +22,7 @@ public class MyTestClass {
         return strField;
     }
 
-    public void setStrField(final String strField) {
+    private void setStrField(final String strField) {
         this.strField = strField;
     }
 
